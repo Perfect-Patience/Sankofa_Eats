@@ -6,6 +6,7 @@
     <title>Sankofa Eats</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/4443486240.js" crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
 </head>
 <body>
     <section id="navbar">
@@ -15,11 +16,11 @@
             <p class="restuarant">Sankofa Eats</p>
         </span>
        <span class="part2">
-           <a href="#"><li class="nav_menu">Home</li></a>
-           <a href="#"><li class="nav_menu">Menu</li></a>
-           <a href="#"><li class="nav_menu">Booking</li></a>
-           <a href="#"><li class="nav_menu">About Us</li></a>
-           <a href="#"><li class="nav_menu">Contact</li></a>
+           <a href="#starter"><li class="nav_menu">Home</li></a>
+           <a href="#main_course"><li class="nav_menu">Menu</li></a>
+           <a href="#sides"><li class="nav_menu">Booking</li></a>
+           <a href="#drinks"><li class="nav_menu">About Us</li></a>
+           <a href="#dessert"><li class="nav_menu">Contact</li></a>
        </span>
        <span class="part3">
            <i class="fa-solid fa-magnifying-glass"></i>
@@ -32,17 +33,43 @@
     <section id="home">
         <div class="overlay">
             <div class="text-content">
-                <header>Welcome to <span class="cursive">Sankofa Eats</span></header>
-                <p class="sub-heading">At Taste of Ghana, we bring you the rich, vibrant flavors of traditional Ghanaian dishes. Our menu is a celebration of Ghana's culinary heritage, featuring time-honored recipes and fresh, locally-sourced ingredients. Whether you're craving the hearty comfort of Jollof rice, the savory delight of Fufu and soup, or the sweet treat of Kelewele, our chefs are dedicated to delivering an unforgettable dining experience. Join us for a journey through Ghana's gastronomic landscape, where every bite tells a story of culture, tradition, and home.</p>
-                <div>
+                <header class="header">Welcome to <span class="cursive">Sankofa Eats</span></header>
+                <p class="sub-heading">At Taste of Ghana, we bring you the rich, vibrant flavors of traditional Ghanaian dishes. Our menu is a celebration of Ghana's culinary heritage, featuring time-honored recipes and fresh, locally-sourced ingredients. Whether you're craving the hearty comfort of Jollof rice, the savory delight of Fufu and soup, or the sweet treat of Kelewele, our chefs are dedicated to delivering an unforgettable dining experience. </p>
+                <div class="button-1">
                     <button>Learn more</button>
                     <button>Order now</button></div>
             </div>
+            <div class="waakye"><img src="assets/waakye.jpg"></div>
         </div>
-        <div class="wave-img"><img src="assets/wave (6).svg" alt="waves"></div>
+        <div class="wave-img"><img src="assets/wave (5).svg" alt="waves"></div>
          
     </section>
-    <section></section>
+    <section id="menu">
+        <header class="heading">Explore our dishes</header>
+         <div class="menu-nav">
+            <a href="">
+                <div class="menu-tile"><img src="assets/cookies-svgrepo-com.svg"><p>Starter</p></div>
+            </a>
+            <a href="">
+                <div class="menu-tile"><img src="assets/chow-food-mein-svgrepo-com.svg"><p>Main course</p></div>
+            </a>
+            <a href="">
+                <div class="menu-tile"><img src="assets/bowl-food-noodle-svgrepo-com.svg"><p>Sides</p></div>
+            </a>
+            <a href="">
+                <div class="menu-tile"><img src="assets/cocktail-svgrepo-com (1).svg"><p>Drinks</p></div>
+            </a>
+            <a href="">
+                <div class="menu-tile"><img src="assets/cupcake-svgrepo-com (1).svg"><p>Dessert</p></div>    
+            </a>
+        </div>
+        <div id="starter"></div>
+        <div id="main_course"></div>
+        <div id="sides"></div>
+        <div id="drinks"></div>
+        <div id="dessert"></div>
+
+    </section>
     <section></section>
 </body>
 </html>

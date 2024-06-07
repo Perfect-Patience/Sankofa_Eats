@@ -1,0 +1,304 @@
+{
+    "menu": {
+      "starters": [
+        {
+          "id": 1,
+          "name": "Kose",
+          "description": "Fried black-eyed pea fritters.",
+          "rating": 4.5,
+          "price": 2.50,
+          "image": "assets/kose.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Bofrot",
+          "description": "Sweet fried dough balls.",
+          "rating": 4.3,
+          "price": 2.00,
+          "image": "assets/puffpuff.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Egg and Pepper",
+          "description": "Boiled eggs served with spicy pepper sauce.",
+          "rating": 4.4,
+          "price": 3.00,
+          "image": "assets/egg.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Chichinga",
+          "description": "Grilled meat skewers marinated in spices.",
+          "rating": 4.7,
+          "price": 5.00,
+          "image": "assets/khebab.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Kelewele",
+          "description": "Spicy fried plantains.",
+          "rating": 4.6,
+          "price": 3.50,
+          "image": "assets/kelewele.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Kakro",
+          "description": "Fried plantain croquettes.",
+          "rating": 4.2,
+          "price": 3.00,
+          "image": "assets/kakro.jpg"
+        },
+        
+        {
+          "id": 8,
+          "name": "Agbeli Kaklo",
+          "description": "Cassava balls fried until golden brown.",
+          "rating": 4.1,
+          "price": 2.50,
+          "image": "assets/kaklo.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Salad",
+            "description": "",
+            "rating": 4.6,
+            "price": 3.00,
+            "image": "assets/salad.jpg"
+          }
+      ],
+      "main_courses": [
+        {
+          "id": 9,
+          "name": "Eto",
+          "description": "Mashed yam or plantain with palm oil and boiled eggs.",
+          "rating": 4.6,
+          "price": 7.00,
+          "image": "assets/eto.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Waakye",
+          "description": "Rice and beans cooked together, served with stew and meat or fish.",
+          "rating": 4.7,
+          "price": 8.00,
+          "image": "assets/waakye.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Jollof",
+          "description": "Rice cooked in tomato sauce with vegetables and meat or fish.",
+          "rating": 4.8,
+          "price": 8.50,
+          "image": "assets/jollof.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Fufu",
+          "description": "Pounded yam, cassava, or plantain, served with soup or stew.",
+          "rating": 4.9,
+          "price": 9.00,
+          "image": "assets/fufu.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Kenkey",
+          "description": "Fermented maize dough served with pepper sauce and fish.",
+          "rating": 4.5,
+          "price": 7.50,
+          "image": "assets/kenkey.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Gob3",
+          "description": "Beans and fried plantain served with gari and red palm oil.",
+          "rating": 4.6,
+          "price": 6.50,
+          "image": "assets/gob3.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Tuo Zaafi and Ayoyo",
+          "description": "Millet or corn dough served with green leafy soup.",
+          "rating": 4.7,
+          "price": 8.50,
+          "image": "assets/tz.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Yam with Stew",
+          "description": "Boiled yam served with tomato stew and meat or fish.",
+          "rating": 4.5,
+          "price": 7.50,
+          "image": "assets/plantain.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Ripe Plantain with Egg Stew",
+          "description": "Fried ripe plantains served with a rich egg and tomato stew.",
+          "rating": 4.4,
+          "price": 7.00,
+          "image": "assets/plantain.jpg"
+        }
+      ],
+      "sides": [
+        {
+          "id": 18,
+          "name": "Sweet Potatoes",
+          "description": "Boiled or fried sweet potatoes.",
+          "rating": 4.3,
+          "price": 3.50,
+          "image": "assets/potatoes.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Fried Yam",
+          "description": "Crispy fried yam slices.",
+          "rating": 4.4,
+          "price": 3.50,
+          "image": "assets/fried_yam.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Shito",
+            "description": "Spicy black pepper sauce.",
+            "rating": 4.8,
+            "price": 2.50,
+            "image": "assets/shito.jpg"
+          },
+        {
+          "id": 20,
+          "name": "Pork",
+          "description": "Grilled or fried pork pieces.",
+          "rating": 4.5,
+          "price": 5.00,
+          "image": "assets/pork.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Tilapia",
+          "description": "Grilled or fried tilapia fish.",
+          "rating": 4.6,
+          "price": 6.50,
+          "image": "assets/snails.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Fried Plantain",
+          "description": "Sweet, ripe plantains fried to perfection.",
+          "rating": 4.7,
+          "price": 3.50,
+          "image": "assets/fried_plantain.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Roasted Ripe Plantain",
+          "description": "Charcoal-grilled ripe plantain.",
+          "rating": 4.5,
+          "price": 3.00,
+          "image": "assets/roasted_plantain.jpg"
+        }
+      ],
+      "drinks": [
+        {
+          "id": 24,
+          "name": "Sobolo",
+          "description": "Hibiscus drink infused with spices.",
+          "rating": 4.6,
+          "price": 2.00,
+          "image": "assets/sobolo.jpg"
+        },
+        {
+          "id": 25,
+          "name": "Zom Kom",
+          "description": "Traditional fermented millet drink.",
+          "rating": 4.5,
+          "price": 2.00,
+          "image": "assets/zomkom.jpg"
+        },
+        {
+          "id": 26,
+          "name": "Pito",
+          "description": "Locally brewed millet beer.",
+          "rating": 4.4,
+          "price": 3.00,
+          "image": "assets/pito.jpg"
+        },
+        {
+          "id": 27,
+          "name": "Palmwine",
+          "description": "Natural fermented palm sap.",
+          "rating": 4.7,
+          "price": 3.50,
+          "image": "assets/palmwine.jpg"
+        },
+        {
+          "id": 28,
+          "name": "Coconut Juice",
+          "description": "Fresh coconut water served chilled.",
+          "rating": 4.6,
+          "price": 2.50,
+          "image": "assets/coconut.jpg"
+        },
+        {
+          "id": 29,
+          "name": "Fruit Juice",
+          "description": "Assorted fresh fruit juices.",
+          "rating": 4.5,
+          "price": 3.00,
+          "image": "assets/juices.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Asaana",
+            "description": "Chilled caramelised corn and sugar drink",
+            "rating": 4.5,
+            "price": 3.00,
+            "image": "assets/asaana.jpg"
+          }
+      ],
+      "desserts": [
+        {
+          "id": 30,
+          "name": "Nkate Cake",
+          "description": "Peanut brittle bars.",
+          "rating": 4.3,
+          "price": 2.50,
+          "image": "assets/nkate_cake.jpg"
+        },
+        {
+          "id": 31,
+          "name": "Kube Toffee",
+          "description": "Coconut candy bars.",
+          "rating": 4.4,
+          "price": 2.50,
+          "image": ""
+        },
+        {
+          "id": 32,
+          "name": "Kube Cake",
+          "description": "Coconut cake made with grated coconut and sugar.",
+          "rating": 4.5,
+          "price": 3.00,
+          "image": "assets/kube cake.jpg"
+        },
+        {
+          "id": 33,
+          "name": "Gari Cake",
+          "description": "Sweet cake made with fermented cassava flour.",
+          "rating": 4.2,
+          "price": 2.50,
+          "image": ""
+        },
+        {
+          "id": 34,
+          "name": "Atadwe Milk",
+          "description": "Tiger nut milk drink.",
+          "rating": 4.6,
+          "price": 3.00,
+          "image": ""
+        }
+       
+      ]
+    }
+  }
