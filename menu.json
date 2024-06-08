@@ -2,36 +2,12 @@
     "menu": {
       "starters": [
         {
-          "id": 1,
-          "name": "Kose",
-          "description": "Fried black-eyed pea fritters.",
+          "id": 37,
+          "name": "Plantain Chips",
+          "description": "Crunchy fried plantain",
           "rating": 4.5,
-          "price": 2.50,
-          "image": "assets/kose.jpg"
-        },
-        {
-          "id": 2,
-          "name": "Bofrot",
-          "description": "Sweet fried dough balls.",
-          "rating": 4.3,
-          "price": 2.00,
-          "image": "assets/puffpuff.jpg"
-        },
-        {
-          "id": 3,
-          "name": "Egg and Pepper",
-          "description": "Boiled eggs served with spicy pepper sauce.",
-          "rating": 4.4,
-          "price": 3.00,
-          "image": "assets/egg.jpg"
-        },
-        {
-          "id": 4,
-          "name": "Chichinga",
-          "description": "Grilled meat skewers marinated in spices.",
-          "rating": 4.7,
-          "price": 5.00,
-          "image": "assets/khebab.jpg"
+          "price": 10.00,
+          "image": "assets/plantain chips.jpg"
         },
         {
           "id": 5,
@@ -40,6 +16,39 @@
           "rating": 4.6,
           "price": 3.50,
           "image": "assets/kelewele.jpg"
+        },
+       
+        {
+          "id": 2,
+          "name": "Bofrot",
+          "description": "Sweet fried dough balls.",
+          "rating": 4.3,
+          "price": 2.00,
+          "image": "assets/bofrot.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Egg and Pepper",
+          "description": "Boiled eggs served with spicy pepper sauce.",
+          "rating": 4.4,
+          "price": 3.00,
+          "image": "assets/egg_pepper.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Chichinga",
+          "description": "Grilled meat skewers marinated in spices.",
+          "rating": 4.7,
+          "price": 5.00,
+          "image": "assets/khebab1.jpg"
+        },
+        {
+          "id": 1,
+          "name": "Kose",
+          "description": "Fried black-eyed pea fritters.",
+          "rating": 4.5,
+          "price": 2.50,
+          "image": "assets/koose.jpg"
         },
         {
           "id": 6,
@@ -130,7 +139,7 @@
           "description": "Boiled yam served with tomato stew and meat or fish.",
           "rating": 4.5,
           "price": 7.50,
-          "image": "assets/plantain.jpg"
+          "image": "assets/yam_stew.jpg"
         },
         {
           "id": 17,
@@ -249,7 +258,7 @@
           "image": "assets/juices.jpg"
         },
         {
-            "id": 29,
+            "id": 35,
             "name": "Asaana",
             "description": "Chilled caramelised corn and sugar drink",
             "rating": 4.5,
@@ -272,7 +281,7 @@
           "description": "Coconut candy bars.",
           "rating": 4.4,
           "price": 2.50,
-          "image": ""
+          "image": "assets/Coconut toffee.jpg"
         },
         {
           "id": 32,
@@ -296,7 +305,7 @@
           "description": "Tiger nut milk drink.",
           "rating": 4.6,
           "price": 3.00,
-          "image": ""
+          "image": "assets/atadwe_milk.jpg"
         }
        
       ]

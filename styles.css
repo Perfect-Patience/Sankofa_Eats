@@ -166,7 +166,7 @@ body{
     width: 100vw;
     height: fit-content;
     padding-top: 50px;
-    background-color: #e3f7fc;
+    /* background-color: #e3f7fc; */
 
 }
 a{
@@ -181,11 +181,6 @@ a{
     background: linear-gradient(var(--primary-color1), var(--primary-color));
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.description{
-    font-size: 0.9rem;
-
 }
 
 /* menu mavigation section */
@@ -220,13 +215,22 @@ a{
     color: black;
 }
 
+#starters, #main, #side_dish, #drink, #desserts{
+    padding-top: 4rem;
+}
 
+#menu header:not(.heading){
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family:cursive;
+    padding-left: 7rem;
+}
 #starter, #main_course, #sides, #drinks, #dessert{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 4rem 1rem 4rem;
-    margin-top: 4rem;
+    padding: 0 4rem 1rem 4rem;
+    margin: 2rem auto 0 auto;
     height: fit-content;
 
     justify-content: space-evenly;
@@ -236,14 +240,14 @@ a{
     width: 18%;
     margin: 20px;
     height: 350px;
-    min-width: 150px;
+    min-width: 230px;
     display: block;
-    padding: 2px;
+    
     /* background-color: rgb(228, 220, 220); */
 }
 
 .name, .description{
-    text-align: center;
+    text-align: left;
 }
 .dish button{
     width: 100%;
@@ -252,13 +256,15 @@ a{
     border: none;
     color: white;
     border-radius: 6px;
+    font-size: large;
+    font-weight: 500;
 
 }
 
 .dish .image{
     width: 100%;
     height: 50%;
-    background-color: aqua;
+    
 
 }
 .dish img{
@@ -266,4 +272,19 @@ a{
     height: 100%;
     object-fit: fill;
     
+}
+
+.rating i{
+    color: var(--primary-color);
+    margin-right: 12px;
+}
+.description, .rating, .price{
+    font-size: 0.8rem ;
+    margin: 5px 0;
+}
+
+.name{
+    font-weight: 500;
+margin:5px 0;
+font-size: 1.06rem;
 }
