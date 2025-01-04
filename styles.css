@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #D62D0B;
+    --primary-color: #FDA403;
     --primary-color1:#0bb4d6;
     --secondary-color: #f4f9ff;
     --background-color: #0C0C0C;
@@ -25,6 +25,7 @@ body{
     background-color: rgb(29, 26, 26);
     position: sticky;
     top: 0;
+    z-index: 100
 }
 
 #navbar ol{
@@ -149,8 +150,8 @@ body{
 .waakye{
     position: relative;
     top:50px;
-    height: 80%;
-    width: 18%;
+    height: 13rem;
+    width: 13rem;
     border: white 8px solid;
     border-radius: 100%;
 }
@@ -168,6 +169,7 @@ body{
     width: 100vw;
     height: fit-content;
     padding-top: 50px;
+    padding-left: 20px;
     /* background-color: #e3f7fc; */
 
 }
@@ -225,17 +227,18 @@ a{
     font-size: 1.6rem;
     font-weight: 700;
     font-family:cursive;
-    padding-left: 7rem;
+    /* padding-left: 7rem; */
 }
 #starter, #main_course, #sides, #drinks, #dessert{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4rem 1rem 4rem;
+    /* padding: 0 4rem 1rem 4rem; */
     margin: 2rem auto 0 auto;
     height: fit-content;
 
     justify-content: space-evenly;
+    /* background-color: #D62D0B; */
 }
 
 .dish{
@@ -244,6 +247,7 @@ a{
     height: 350px;
     min-width: 230px;
     display: block;
+    cursor: pointer;
     
     /* background-color: rgb(228, 220, 220); */
 }
@@ -260,6 +264,7 @@ a{
     border-radius: 6px;
     font-size: large;
     font-weight: 500;
+    cursor: pointer;
 
 }
 
@@ -340,8 +345,116 @@ font-size: 1.06rem;
    font-size: small;
     margin-top: 8px;
 }
-
+.flexed{
+    display: flex;
+    width: 100vw;
+    /* background-color: #0bb4d6; */
+    height: fit-content;
+    justify-content: center;
+}
 
 .about{
-    margin: 10px auto;
+     padding: 10px 20px;
+     text-align: center;
+     margin-top: 2rem;
+     border: var(--primary-color1) solid 0.2em;
+     border-radius: 6px;
+     background-color: var(--secondary-color);
+     /* color: #D62D0B; */
+     font-size: 1.1rem;
+     font-weight: 500;
+     cursor: pointer;
+     
+}
+
+.about:hover{
+    background-color: var(--primary-color1);
+    color:white;
+
+}
+
+#about-us{
+    height: fit-content;
+    width: 100vw;
+}
+
+#booking{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--primary-color); */
+    /* color: white; */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+
+#book-now{
+    width: 50%;
+    height: fit-content;
+    background-color:#0bb4d6;
+}
+
+
+#booking form{
+    width: 40%;
+    padding: 20px;
+    background-color: #0bb4d6;
+    border-radius: 6px;
+    line-height: 1.5em;
+}
+
+#booking form label{
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    margin-right:0.8rem ;
+
+}
+
+.form-group{
+    /* background-color: aqua; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+#booking form input[type="text"], #booking form input[type="email"], #booking form textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+ #booking form input[type="tel"]{
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.date-time{
+    display: flex;
+    align-items: center;
+
+}
+
+.date-time input, input[type="number"]{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+submit{
+    background-color: #D62D0B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+
 }
